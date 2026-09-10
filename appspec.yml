@@ -1,0 +1,14 @@
+version: 0.0
+
+os: linux
+
+files:
+  - source: application/
+    destination: /usr/share/nginx/html/
+
+permissions:
+  - object: /usr/share/nginx/html/
+    pattern: "**"
+    owner: nginx
+    group: nginx
+    mode: 755
