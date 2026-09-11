@@ -6,6 +6,8 @@ files:
   - source: application/
     destination: /usr/share/nginx/html/
 
+file_exists_behavior: OVERWRITE
+
 permissions:
   - object: /usr/share/nginx/html/
     pattern: "**"
