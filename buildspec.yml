@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build started"
+      - echo "Preparing deployment files"
+
+artifacts:
+  files:
+    - appspec.yml
+    - application/**/*
